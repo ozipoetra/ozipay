@@ -62,5 +62,4 @@ fields:
   type: boolean
   label: Draft
 pages:
-- content/posts/i-was-here.md
 - content/posts/nekopay-is-here.md
