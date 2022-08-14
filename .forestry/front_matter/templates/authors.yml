@@ -40,3 +40,5 @@ fields:
     label: Instagram
     default: https://www.instagram.com
   label: Social
+pages:
+- content/authors/ozi-saputra.md
