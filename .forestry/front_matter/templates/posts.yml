@@ -64,3 +64,5 @@ fields:
     options:
     - Mark Dinn
   label: Authors
+pages:
+- content/posts/apa-itu-nekopay.md
