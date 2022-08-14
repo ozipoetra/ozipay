@@ -1,8 +1,7 @@
 ---
-categories: Food
-authors: Mark Dinn
-tags:
-- Weeb
+categories: ["Food"]
+authors: ["Mark Dinn"]
+tags: ["weeb"]
 title: NekoPay is here
 description: 'Nekopay '
 date: 2022-08-13T17:00:00+00:00
