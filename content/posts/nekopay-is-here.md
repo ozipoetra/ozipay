@@ -8,7 +8,7 @@ date: 2022-08-13T17:00:00.000+00:00
 image: "/images/posts/07.jpg"
 draft: false
 categories:
-- Art
+- Article
 authors:
 - content/authors/nekopay.md
 
