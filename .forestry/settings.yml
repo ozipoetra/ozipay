@@ -43,6 +43,17 @@ sections:
 - type: document
   path: config/config.json
   label: Config
+- type: document
+  path: config/menu.json
+  label: Menu
+  match: "**/*"
+- type: document
+  path: config/social.json
+  label: Social
+  match: "**/*"
+- type: document
+  path: config/theme.json
+  label: Theme
   match: "**/*"
 upload_dir: public/images
 public_path: "/images"
