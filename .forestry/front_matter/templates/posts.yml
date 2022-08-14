@@ -27,33 +27,6 @@ fields:
   config:
     maxSize: 64
   label: Image
-- name: categories
-  type: select
-  default: []
-  config:
-    required: false
-    options:
-    - Food
-    - Art
-    source:
-      type: simple
-      section: 
-      file: 
-      path: 
-  label: Categories
-- name: authors
-  type: select
-  default: []
-  config:
-    required: false
-    options:
-    - Mark Dinn
-    source:
-      type: simple
-      section: 
-      file: 
-      path: 
-  label: Authors
 - name: tags
   type: tag_list
   default: []
@@ -61,3 +34,27 @@ fields:
 - name: draft
   type: boolean
   label: Draft
+- name: categories
+  type: list
+  config:
+    use_select: true
+    min: 
+    max: 
+    source:
+      type: simple
+    options:
+    - Food
+    - Art
+    - Web
+  label: Categories
+- name: authors
+  type: list
+  config:
+    use_select: true
+    min: 
+    max: 
+    source:
+      type: simple
+    options:
+    - Mark Dinn
+  label: Authors
