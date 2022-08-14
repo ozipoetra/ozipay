@@ -61,5 +61,3 @@ fields:
 - name: draft
   type: boolean
   label: Draft
-pages:
-- content/posts/nekopay-is-here.md
