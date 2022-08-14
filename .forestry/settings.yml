@@ -18,7 +18,7 @@ sections:
   create: documents
   match: "*.md"
   exclude: _index.md
-  new_doc_ext: ".md"
+  new_doc_ext: md
   templates:
   - authors
 - type: heading
@@ -26,23 +26,18 @@ sections:
 - type: document
   path: content/about.md
   label: About
-  match: "**/*"
 - type: document
   path: content/contact.md
   label: Contact
-  match: "**/*"
 - type: document
   path: content/404.md
   label: '404'
-  match: "**/*"
 - type: document
   path: content/privacy-policy.md
   label: 'Privacy Policy '
-  match: "**/*"
 - type: document
   path: content/elements.md
   label: Elements
-  match: "**/*"
 upload_dir: public/images
 public_path: "/images"
 front_matter_path: ''
