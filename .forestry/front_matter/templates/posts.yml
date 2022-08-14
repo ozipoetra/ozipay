@@ -55,11 +55,12 @@ fields:
     min: 
     max: 
     source:
-      type: pages
+      type: simple
       section: authors
       file: 
     options:
-    - Mark Dinn
+    - Ozi Saputra
+    - NekoPay
   label: Authors
 - name: draft
   type: boolean
