@@ -43,9 +43,13 @@ fields:
     source:
       type: simple
     options:
-    - Food
-    - Art
+    - Another
+    - Article
+    - Opinion
+    - Linux
+    - VPS
     - Web
+    - Curhat
   label: Categories
 - name: authors
   type: list
@@ -54,7 +58,9 @@ fields:
     min: 
     max: 
     source:
-      type: simple
+      type: pages
+      section: authors
+      file: 
     options:
     - Mark Dinn
   label: Authors
