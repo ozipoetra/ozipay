@@ -5,24 +5,24 @@
       "url": "/"
     },
     {
-      "name": "About",
+      "name": "Tentang",
       "url": "/about"
     },
     {
-      "name": "Contact",
+      "name": "Hubungi Kami",
       "url": "/contact"
     },
     {
-      "name": "Pages",
+      "name": "Halaman",
       "url": "",
       "hasChildren": true,
       "children": [
         {
-          "name": "Authors",
+          "name": "Profil",
           "url": "/authors"
         },
         {
-          "name": "Categories",
+          "name": "Kategori",
           "url": "/categories"
         },
         {
@@ -34,7 +34,7 @@
           "url": "/elements"
         },
         {
-          "name": "Privacy Policy",
+          "name": "Kebijakan Privasi",
           "url": "/privacy-policy"
         }
       ]
@@ -42,11 +42,11 @@
   ],
   "footer": [
     {
-      "name": "About",
+      "name": "Tentang",
       "url": "/about"
     },
     {
-      "name": "Contact",
+      "name": "Hubungi",
       "url": "/contact"
     },
     {
@@ -54,7 +54,7 @@
       "url": "/elements"
     },
     {
-      "name": "Privacy Policy",
+      "name": "Kebijakan Privasi",
       "url": "/privacy-policy"
     }
   ]
