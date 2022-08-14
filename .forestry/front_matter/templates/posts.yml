@@ -58,3 +58,5 @@ fields:
     options:
     - Mark Dinn
   label: Authors
+pages:
+- content/posts/nekopay-is-here.md
