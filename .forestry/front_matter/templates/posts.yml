@@ -59,4 +59,5 @@ fields:
     - Mark Dinn
   label: Authors
 pages:
+- content/posts/ini-adalah-test.md
 - content/posts/nekopay-is-here.md
