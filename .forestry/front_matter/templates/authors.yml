@@ -41,4 +41,5 @@ fields:
     default: https://www.instagram.com
   label: Social
 pages:
+- content/authors/nekopay.md
 - content/authors/ozi-saputra.md
