@@ -4,6 +4,29 @@ auto_deploy: false
 admin_path: 
 webhook_url: 
 sections:
+- type: directory
+  path: content/posts
+  label: Posts
+  create: documents
+  match: "*.md"
+  new_doc_ext: md
+  templates:
+  - posts
+- type: directory
+  path: content/authors
+  label: Authors
+  create: documents
+  match: "*.md"
+  exclude: _index.md
+  new_doc_ext: ".md"
+  templates:
+  - authors
+- type: heading
+  label: Pages
+- type: document
+  path: content/about.md
+  label: About
+  match: "**/*"
 - type: document
   path: content/contact.md
   label: Contact
@@ -20,27 +43,6 @@ sections:
   path: content/elements.md
   label: Elements
   match: "**/*"
-- type: document
-  path: content/about.md
-  label: About
-  match: "**/*"
-- type: directory
-  path: content/authors
-  label: Authors
-  create: documents
-  match: "*.md"
-  exclude: _index.md
-  new_doc_ext: ".md"
-  templates:
-  - authors
-- type: directory
-  path: content/posts
-  label: Posts
-  create: documents
-  match: "*.md"
-  new_doc_ext: md
-  templates:
-  - posts
 upload_dir: public/images
 public_path: "/images"
 front_matter_path: ''
