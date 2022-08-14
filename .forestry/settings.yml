@@ -4,6 +4,26 @@ auto_deploy: false
 admin_path: 
 webhook_url: 
 sections:
+- type: document
+  path: content/contact.md
+  label: Contact
+  match: "**/*"
+- type: document
+  path: content/404.md
+  label: '404'
+  match: "**/*"
+- type: document
+  path: content/privacy-policy.md
+  label: 'Privacy Policy '
+  match: "**/*"
+- type: document
+  path: content/elements.md
+  label: Elements
+  match: "**/*"
+- type: document
+  path: content/about.md
+  label: About
+  match: "**/*"
 - type: directory
   path: content/authors
   label: Authors
