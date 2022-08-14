@@ -12,7 +12,7 @@ draft: false
 categories:
 - Article
 authors:
-- content/authors/ozi-saputra.md
+- Ozi Saputra
 
 ---
 Halo semuanya, setelah sekian lama tidak update blog ini, akhirnya bisa kembali lagi dengan framework dan tampilan yang lebih baru. Tentunya dengan tampilan yang baru ini dan beberapa fitur yang sudah cukup untuk memulai aktifitas ngeblog lagi.
