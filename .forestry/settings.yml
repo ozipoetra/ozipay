@@ -38,6 +38,12 @@ sections:
 - type: document
   path: content/elements.md
   label: Elements
+- type: heading
+  label: Settings
+- type: document
+  path: config/config.json
+  label: Config
+  match: "**/*"
 upload_dir: public/images
 public_path: "/images"
 front_matter_path: ''
