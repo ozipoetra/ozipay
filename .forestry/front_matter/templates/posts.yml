@@ -27,13 +27,6 @@ fields:
   config:
     maxSize: 64
   label: Image
-- name: tags
-  type: tag_list
-  default: []
-  label: Tags
-- name: draft
-  type: boolean
-  label: Draft
 - name: categories
   type: list
   config:
@@ -51,6 +44,10 @@ fields:
     - Web
     - Curhat
   label: Categories
+- name: tags
+  type: tag_list
+  default: []
+  label: Tags
 - name: authors
   type: list
   config:
@@ -64,5 +61,8 @@ fields:
     options:
     - Mark Dinn
   label: Authors
+- name: draft
+  type: boolean
+  label: Draft
 pages:
 - content/posts/apa-itu-nekopay.md
