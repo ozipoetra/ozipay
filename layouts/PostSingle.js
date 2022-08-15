@@ -12,7 +12,7 @@ import {DiscussionEmbed} from "disqus-react"
 const PostSingle = ({ post, posts, authors, slug }) => {
   const disqusShortname = "nekopay";
   const disqusConfig = {
-    url: "https://ozip.my.id/post-slug",
+    url: "https://ozip.my.id/{`/${post.slug}`}",
     identifier: post.id, // Single post id
     title: post.title // Single post title
   }
