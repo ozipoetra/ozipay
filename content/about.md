@@ -1,17 +1,18 @@
 ---
-title: "I’m John Doe, A content writer based in LDN, currently at Bookworm"
-meta_title: "About"
+title: Tentang Kami
+meta_title: NekoPay merupakan situs hiburan yang terkadang mengedukasi dengan tutorial-tutorial
+  seputar linux, web dan vps.
 image: "/images/author.jpg"
-layout: "about"
+layout: about
 draft: false
-
-# social sites
 social:
-  facebook: "https://www.facebook.com"
-  twitter: "https://www.twitter.com"
-  instagram: "https://www.instagram.com"
+  facebook: https://www.facebook.com/ozip.cf
+  twitter: https://www.twitter.com/bot_ozip
+  instagram: https://www.instagram.com/nekopaych
+
 ---
+NekoPay merupakan sebuah blog hiburan yang berisikan tentang anime, vtuber dan cosplay. Selain itu kami juga akan ada sedikit konten edukasi tentang web, linux dan vps.
 
-A content writer with over 12 years experience working across brand identity, publishing and digital products. Maecenas sit amet purus eget ipsum elementum venenatis. Aenean maximus urna magna elementum venenatis, quis rutrum mi semper non purus eget.
+Untuk tujuan dan beberapa informasi tentang blog ini bisa kalian baca di artikel ini: [Apa Itu NekoPay](https://ozip.my.id/apa-itu-nekopay "Apa Itu NekoPay ").
 
-Purus eget ipsum elementum venenatis. Aenean maximus urna magna elementum venenatis, quis rutrum mi semper non purus eget ipsum elementum venenatis.
+Meskipun nama kami menggunakan kata NekoPay yang terdapat kata "Pay" atau Bayar, namun konten kami 100% gratis dan tidak ada pembayaran sama sekali. Kami juga bukan metode pembayaran, dan tidak melayani pembayaran.
