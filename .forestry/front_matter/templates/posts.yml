@@ -43,6 +43,8 @@ fields:
     - VPS
     - Web
     - Curhat
+    - Anime
+    - Vtuber
   label: Categories
 - name: tags
   type: tag_list
