@@ -6,6 +6,7 @@ import Link from "next/link";
 
 const Posts = ({ posts, authors, className }) => {
   const { summary_length } = config.settings;
+  const { base_url } = config.site;
   return (
     <div className={`row space-y-16 ${className}`}>
       {posts.map((post, i) => (
@@ -72,7 +73,7 @@ const Posts = ({ posts, authors, className }) => {
             </li>
           </ul>
           <h3 className="mb-2">
-            <Link href={`/${post.slug}`} passHref>
+            <Link href={`${base_url}/${post.slug}`} passHref>
               <a className="block hover:text-primary">
                 {post.frontmatter.title}
               </a>
