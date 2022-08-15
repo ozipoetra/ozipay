@@ -1,14 +1,18 @@
+import config from "@config/config.json";
 import { dateFormat } from "@lib/utils/dateFormat";
 import { humanize, slugify } from "@lib/utils/textConverter";
 import Image from "next/image";
 import Link from "next/link";
 
+const { base_url } = config.site;
 const SimilarPosts = ({ posts }) => {
   return (
     <div className="row justify-center">
       {posts.map((post, i) => (
         <div key={`key-${i}`} className={"col-12 mb-4 sm:col-4"}>
           {post.frontmatter.image && (
+           <Link href={`${base_url}/${post.slug}`} passHref>
+            <a>
             <Image
               className="rounded-lg"
               src={post.frontmatter.image}
@@ -17,6 +21,8 @@ const SimilarPosts = ({ posts }) => {
               height={"230"}
               layout="responsive"
             />
+            </a>
+           </link>
           )}
           <ul className="mt-4 text-text">
             <li className="mb-2 mr-4 inline-block">
@@ -26,7 +32,7 @@ const SimilarPosts = ({ posts }) => {
               <ul>
                 {post.frontmatter.categories.map((category, i) => (
                   <li className="inline-block" key={`category-${i}`}>
-                    <Link href={`/categories/${slugify(category)}`} passHref>
+                    <Link href={`${base_url}/categories/${slugify(category)}`} passHref>
                       <a className="mr-3 hover:text-primary">
                         &#9635; {humanize(category)}
                       </a>
@@ -37,7 +43,7 @@ const SimilarPosts = ({ posts }) => {
             </li>
           </ul>
           <h3 className="h4">
-            <Link href={`/${post.slug}`} passHref>
+            <Link href={`${base_url}/${post.slug}`} passHref>
               <a className="block hover:text-primary">
                 {post.frontmatter.title}
               </a>
