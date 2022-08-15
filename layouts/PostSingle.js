@@ -7,6 +7,15 @@ import Image from "next/image";
 import Link from "next/link";
 import Share from "./components/Share";
 import SimilarPosts from "./partials/SimilarPosts";
+import {DiscussionEmbed} from "disqus-react"
+
+const DisqusComments = ({ post }) => {
+  const disqusShortname = "nekopay"
+  const disqusConfig = {
+    url: "https://ozip.my.id/post-slug",
+    identifier: post.id, // Single post id
+    title: post.title // Single post title
+  }
 
 const PostSingle = ({ post, posts, authors, slug }) => {
   const { frontmatter, content, mdxContent } = post;
@@ -103,7 +112,12 @@ const PostSingle = ({ post, posts, authors, slug }) => {
       <section className="section">
         <div className="container">
           <h2 className="mb-8 text-center">Komentar</h2>
-Ini Adalah Komentar
+    <div>
+      <DiscussionEmbed
+        shortname={disqusShortname}
+        config={disqusConfig}
+      />
+    </div>
         </div>
       </section>
       <section className="section">
