@@ -66,4 +66,5 @@ fields:
   type: boolean
   label: Draft
 pages:
+- content/posts/apa-itu-cloudflare.md
 - content/posts/apa-itu-nekopay.md
