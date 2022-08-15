@@ -6,7 +6,8 @@
     "logo": "/images/logo.webp",
     "logo_width": "200",
     "logo_height": "34",
-    "logo_text": "NekoPay"
+    "logo_text": "NekoPay",
+    "disqusShortname": "nekpaych"
   },
   "settings": {
     "pagination": 3,
