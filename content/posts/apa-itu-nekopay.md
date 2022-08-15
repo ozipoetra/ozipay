@@ -6,8 +6,8 @@ tags:
 title: Apa itu NekoPay
 description: NekoPay merupakan sebuah blog yang berisi artikel yang menarik dan menghibur
   dan tentunya mengedukasi
-date: 2022-08-15T02:00:00+07:00
-image: "/images/posts/03.jpg"
+date: 2022-08-15T02:00:00.000+07:00
+image: "/images/posts/nekopay.webp"
 draft: false
 categories:
 - Article
