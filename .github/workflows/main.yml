@@ -23,12 +23,13 @@ jobs:
         node-version: 16
     - name: Create local changes
       run: |
-        npm install disqus-react
+        ls -al
     - name: Commit files
       run: |
         git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
         git config --local user.name "github-actions[bot]"
         git init
+        git pull
         git add .
         git commit -m "Add changes test"
     - name: Push changes
