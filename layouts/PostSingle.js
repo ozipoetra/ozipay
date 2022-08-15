@@ -14,7 +14,7 @@ const PostSingle = ({ post, posts, authors, slug }) => {
   let { description, title, date, image, categories, tags } = frontmatter;
   description = description ? description : content.slice(0, 120);
   const similarPosts = similerItems(post, posts, slug);
-  const disqusShortname = "nekopay";
+  const disqusShortname = "nekopaych";
   const disqusConfig = {
     url: "https://ozip.my.id/" + ${post.slug},
     identifier: post.id, // Single post id
