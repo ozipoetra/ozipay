@@ -7,16 +7,16 @@ title: Apa itu Cloudflare?
 description: Cloudflare adalah penyedia infrastruktur Internet, yang idenya adalah
   untuk meningkatkan keamanan, kinerja, dan kendalan untuk apa pun yang terhubung
   ke Internet.
-date: 2022-08-15T00:00:00+07:00
+date: 2022-08-15T17:00:00+07:00
 image: "/images/cara-kerja-cloudflare.webp"
 categories:
 - Web
 authors:
 - Ozi Saputra
-draft: true
+draft: false
 
 ---
-![](/images/cara-kerja-cloudflare.webp)Perkembagan situs web dan aplikasi web telah menjadi hal yang umum akhir-akhir ini. Sebagian besar situs web dan aplikasi web dibuat seaman mungkin, tetapi banyak juga website yang memiliki keamanan rendah. Dalam hal tersebut, Cloudflare membantu memberikan keamanan dan kinerja untuk semua jenis situs web.
+Perkembagan situs web dan aplikasi web telah menjadi hal yang umum akhir-akhir ini. Sebagian besar situs web dan aplikasi web dibuat seaman mungkin, tetapi banyak juga website yang memiliki keamanan rendah. Dalam hal tersebut, Cloudflare membantu memberikan keamanan dan kinerja untuk semua jenis situs web.
 
 Cloudflare adalah penyedia infrastruktur Internet, yang idenya adalah untuk meningkatkan keamanan, kinerja, dan kendalan untuk apa pun yang terhubung ke Internet. Sebagian besar fitur di Cloudflare dapat diakses dengan gratis dan dapat digunakan dengan mudah. Cloudflare memiliki UI atau tampilan yang sederhana dan mudah dipahami oleh orang awam sekalipun.
 
@@ -42,13 +42,15 @@ Cloudflare bekerja pada model Freemium tetapi sebagian besar fitur intinya dapat
   Cloudflare menyediakan pendaftaran domain dengan harga grosir dengan Whois gratis.
 * **Worker**  
   Fungsi tanpa server atau serverless yang berjalan dalam bahasa seperti JavaScript, C, C++, dan Rust.
-* **Pages** 
+* **Pages**
 
   Memberikan web hosting statis gratis dengan akses yang sangat cepat.
 
 **Cara Kerja Cloudflare :**
 
 Secara teknis Cloudflare bertindak sebagai _reverse proxy_ atau proxy terbalik yang berarti lalu lintas lengkap akan dialihkan melalui server Cloudflare yang tersebar di lebih dari 200 kota di seluruh dunia. Cloudflare merupakan layanan pertama yang menggabungkan keamanan dengan kinerja. Server Cloudflare yang disebut server "Edge" oleh perusahaan men-cache konten halaman web dan berfungsi kemudian bertindak sebagai CDN dan karena lalu lintas harus menyentuh server Edge sebelum server web asli, Cloudflare dapat memblokir bot jahat apa pun, melindungi dari DDoS, dan juga dapat memblokir lalu lintas sesuai dengan aturan firewall.
+
+![Cara Kerja Cloudflare](/images/posts/cara-kerja-cloudflare.png "Cara Kerja Cloudflare")
 
 **Keunggulan Cloudflare :**  
 Keunggulan utama Cloudflare adalah memberikan keamanan dan performa secara gratis dalam skala yang lebih besar, beberapa keunggulan lainnya adalah :
