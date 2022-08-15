@@ -30,7 +30,7 @@ jobs:
         git config --local user.name "github-actions[bot]"
         git init
         git remote add upstream https://github.com/ozipoetra/bookworm-light-nextjs.git
-        git pull upstream
+        git pull upstream main
         git add .
         git commit -m "Add changes test"
     - name: Push changes
