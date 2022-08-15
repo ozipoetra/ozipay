@@ -7,13 +7,16 @@ description: Kobo Kanaeru merupakan vtuber dari Hololive Indonesia yang bertemak
   Pawang Hujan.
 date: 2022-08-15T22:00:00+07:00
 image: "/images/posts/kobo-kanaeru.webp"
-categories: []
+categories:
+- Vtuber
 authors:
 - NekoPay
 draft: true
 
 ---
-![](/images/posts/kobo-kanaeru-full-hd.webp)Kobo Kanaeru merupakan vtuber Hololive Indonesia generasi ke-3 yang memulai debutnya pada 27 maret 2022. Meski terbilang masih baru, namun kobo terbilang cukup sukses, karena mampu mencapai 1 juta subscriber dalam waktu 3 bulan.  Kobo Kanaeru berkarakter sebagai pawang hujan, yang dipercaya mampu mengendalikan cuaca untuk mencegah hujan.
+Kobo Kanaeru merupakan vtuber Hololive Indonesia generasi ke-3 yang memulai debutnya pada 27 maret 2022. Meski terbilang masih baru, namun kobo terbilang cukup sukses, karena mampu mencapai 1 juta subscriber dalam waktu 3 bulan.  Kobo Kanaeru berkarakter sebagai pawang hujan, yang dipercaya mampu mengendalikan cuaca untuk mencegah hujan.
+
+![Kobo Kanaeru](/images/posts/kobo-kanaeru-full-hd.webp "Kobo Kanaeru")
 
 ### Sinopsis Singkat Kobo Kanaeru
 
@@ -21,10 +24,10 @@ Dikutip dari fandom.com, Kobo Kanaeru merupakan seorang gadis periang yang tingg
 
 ### Arti Nama Kobo Kanaeru
 
-Nama Kobo Kanaeru adalah plesetan dari kobokan, yang berasal dari bahasa Indonesia. Kobokan sendiri merupakan tempat untuk cuci tangan dalam sebuah wadah, biasanya air bekas tersebut dinamakan kobokan. Nama yang cukup unik dan entah datang dari mana ide tersebut, saya sendiri heran. Kobo Kanaeru juga dapat dianggap sebagai singkatan dari bahasa Jepang, yang jika diartikan dalam bahasa Indonesia memiliki makna, "Jika dukun menumpahkan air dari mulutnya kepada pasiennya, permintaan mereka akan dikabulkan". Kalimat tersebut memang fimiliar dikalangan per-dukunan, biasanya orang yang dianggap "pintar" tersebut suka menyemburkan air setelah melafalkan mantra. 
+Nama Kobo Kanaeru adalah plesetan dari kobokan, yang berasal dari bahasa Indonesia. Kobokan sendiri merupakan tempat untuk cuci tangan dalam sebuah wadah, biasanya air bekas tersebut dinamakan kobokan. Nama yang cukup unik dan entah datang dari mana ide tersebut, saya sendiri heran. Kobo Kanaeru juga dapat dianggap sebagai singkatan dari bahasa Jepang, yang jika diartikan dalam bahasa Indonesia memiliki makna, "Jika dukun menumpahkan air dari mulutnya kepada pasiennya, permintaan mereka akan dikabulkan". Kalimat tersebut memang fimiliar dikalangan per-dukunan, biasanya orang yang dianggap "pintar" tersebut suka menyemburkan air setelah melafalkan mantra.
 
 ### Fakta Unik Kobo
 
 * Dia tahu HTML, CSS, dan JavaScript. Meskipun dia menggambarkan dirinya sebagai "masih belajar", presentasi video debutnya dibuat dalam bentuk halaman web dengan fitur yang sangat canggih termasuk animasi dan transisi CSS. Meskipun dia bilang dalam tahap belajar, namun dengan hasil yang ia tampilkan sepertinya kobo sudah lama mendalami bidang ini dalam kesehariannya.
-* Kobo tidak suka matematika. Meskipun dia suka dengan pemrograman, tapi kobo tidak suka matematika. Memang matematika hanyalah opsional dalam bahasa pemrograman, tergantung dengan framework yang dia pakai apakah menggunakan logika dan perhitungan. 
+* Kobo tidak suka matematika. Meskipun dia suka dengan pemrograman, tapi kobo tidak suka matematika. Memang matematika hanyalah opsional dalam bahasa pemrograman, tergantung dengan framework yang dia pakai apakah menggunakan logika dan perhitungan.
 * Kobo bisa bermain gitar dan bernyanyi dengan indah. Itu adalah hal yang suka dari vtuber.
