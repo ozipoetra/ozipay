@@ -11,7 +11,7 @@ const Contact = ({ data }) => {
         <form className="contact-form">
           <div className="mb-6">
             <label className="mb-2 block" htmlFor="name">
-              Name
+              Nama
             </label>
             <input
               className="form-input w-full"
@@ -33,7 +33,7 @@ const Contact = ({ data }) => {
           </div>
           <div className="mb-6">
             <label className="mb-2 block" htmlFor="subject">
-              Subject
+              Subjek
             </label>
             <input
               className="form-input w-full"
@@ -44,7 +44,7 @@ const Contact = ({ data }) => {
           </div>
           <div className="mb-6">
             <label className="mb-2 block" htmlFor="message">
-              Message
+              Pesan
             </label>
             <textarea className="form-textarea w-full" rows="7" />
           </div>
