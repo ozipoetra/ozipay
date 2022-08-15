@@ -15,6 +15,8 @@ const Posts = ({ posts, authors, className }) => {
           className={i === 0 ? "col-12" : "col-12 sm:col-6"}
         >
           {post.frontmatter.image && (
+           <Link href={`${base_url}/${post.slug}`} passHref>
+              <a>
             <Image
               className="rounded-lg"
               src={post.frontmatter.image}
@@ -24,6 +26,8 @@ const Posts = ({ posts, authors, className }) => {
               layout="responsive"
               priority={i === 0 ? true : false}
             />
+              </a>
+            </Link>
           )}
           <ul className="mt-4 text-text">
             <li className="mb-2 mr-4 inline-block">
@@ -35,7 +39,7 @@ const Posts = ({ posts, authors, className }) => {
                 )
                 .map((author, i) => (
                   <Link
-                    href={`/authors/${slugify(author.frontmatter.title)}`}
+                    href={`${base_url}/authors/${slugify(author.frontmatter.title)}`}
                     key={`author-${i}`}
                     passHref
                   >
@@ -62,7 +66,7 @@ const Posts = ({ posts, authors, className }) => {
               <ul>
                 {post.frontmatter.categories.map((category, i) => (
                   <li className="inline-block" key={`category-${i}`}>
-                    <Link href={`/categories/${slugify(category)}`} passHref>
+                    <Link href={`${base_url}/categories/${slugify(category)}`} passHref>
                       <a className="mr-3 hover:text-primary">
                         &#9635; {humanize(category)}
                       </a>
