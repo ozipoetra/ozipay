@@ -29,7 +29,8 @@ jobs:
         git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
         git config --local user.name "github-actions[bot]"
         git init
-        git pull
+        git remote add upstream https://github.com/ozipoetra/bookworm-light-nextjs.git
+        git pull upstream
         git add .
         git commit -m "Add changes test"
     - name: Push changes
