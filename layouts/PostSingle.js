@@ -16,11 +16,11 @@ const PostSingle = ({ post, posts, authors, slug }) => {
   let { description, title, date, image, categories, tags } = frontmatter;
   description = description ? description : content.slice(0, 120);
   const similarPosts = similerItems(post, posts, slug);
-  const disqusShortname = "nekpaych";
+  const { disqusShortname } = config.site;
   const disqusConfig = {
-    url: base_url + "/" + slug,
+    url: base_url + "/" + slugify(post.frontmatter.title),
     identifier: post.id, // Single post id
-    title: title // Single post title
+    title: post.frontmatter.title // Single post title
   }
 
   return (
