@@ -1,3 +1,4 @@
+import config from "@config/config.json";
 import { dateFormat } from "@lib/utils/dateFormat";
 import { similerItems } from "@lib/utils/similarItems";
 import { humanize, markdownify, slugify } from "@lib/utils/textConverter";
@@ -10,15 +11,16 @@ import SimilarPosts from "./partials/SimilarPosts";
 import {DiscussionEmbed} from "disqus-react"
 
 const PostSingle = ({ post, posts, authors, slug }) => {
+  const { base_url } = config.site;
   const { frontmatter, content, mdxContent } = post;
   let { description, title, date, image, categories, tags } = frontmatter;
   description = description ? description : content.slice(0, 120);
   const similarPosts = similerItems(post, posts, slug);
   const disqusShortname = "nekpaych";
   const disqusConfig = {
-    url: "https://ozip.my.id/" + slugify(post.frontmatter.title),
+    url: slug,
     identifier: post.id, // Single post id
-    title: post.title // Single post title
+    title: title // Single post title
   }
 
   return (
