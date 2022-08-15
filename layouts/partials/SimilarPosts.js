@@ -22,7 +22,7 @@ const SimilarPosts = ({ posts }) => {
               layout="responsive"
             />
             </a>
-           </link>
+           </Link>
           )}
           <ul className="mt-4 text-text">
             <li className="mb-2 mr-4 inline-block">
