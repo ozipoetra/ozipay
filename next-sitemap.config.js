@@ -1,8 +1,10 @@
 /** @type {import('next-sitemap').IConfig} */
+import config from "@config/config.json";
+const { base_url } = config.site;
 const config = {
-  siteUrl: 'https://ozip.my.id',
+  siteUrl: base_url,
   generateRobotsTxt: false,
-  sitemapSize: 7000,
+  sitemapSize: 5000,
 }
 
 module.exports = config
