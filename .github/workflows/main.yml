@@ -23,7 +23,7 @@ jobs:
         node-version: 16
     - name: Create local changes
       run: |
-        yarn add next-sitemap
+        npm install disqus-react
     - name: Commit files
       run: |
         git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
