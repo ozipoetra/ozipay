@@ -10,16 +10,16 @@ import SimilarPosts from "./partials/SimilarPosts";
 import {DiscussionEmbed} from "disqus-react"
 
 const PostSingle = ({ post, posts, authors, slug }) => {
-  const disqusShortname = "nekopay";
-  const disqusConfig = {
-    url: "https://ozip.my.id/{`/${post.slug}`}",
-    identifier: post.id, // Single post id
-    title: post.title // Single post title
-  }
   const { frontmatter, content, mdxContent } = post;
   let { description, title, date, image, categories, tags } = frontmatter;
   description = description ? description : content.slice(0, 120);
   const similarPosts = similerItems(post, posts, slug);
+  const disqusShortname = "nekopay";
+  const disqusConfig = {
+    url: "https://ozip.my.id/" + ${post.slug},
+    identifier: post.id, // Single post id
+    title: post.title // Single post title
+  }
 
   return (
     <>
