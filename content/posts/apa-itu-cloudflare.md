@@ -8,7 +8,7 @@ description: Cloudflare adalah penyedia infrastruktur Internet, yang idenya adal
   untuk meningkatkan keamanan, kinerja, dan kendalan untuk apa pun yang terhubung
   ke Internet.
 date: 2022-08-15T17:00:00+07:00
-image: "/images/cara-kerja-cloudflare.webp"
+image: "/images/posts/cloudflare_logo.webp"
 categories:
 - Web
 authors:
