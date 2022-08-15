@@ -3,15 +3,15 @@ tags:
 - Vtuber
 - Anime
 title: Kobo Kanaeru - Vtuber
-description: Kobo Kanaeru merupakan vtuber dari Hololive Indonesia yang bertemakan
-  Pawang Hujan.
+description: Kobo Kanaeru merupakan vtuber dari Hololive Indonesia generasi ke-3 yang
+  bertemakan Pawang Hujan.
 date: 2022-08-15T22:00:00+07:00
 image: "/images/posts/kobo-kanaeru.webp"
 categories:
 - Vtuber
 authors:
 - NekoPay
-draft: true
+draft: false
 
 ---
 Kobo Kanaeru merupakan vtuber Hololive Indonesia generasi ke-3 yang memulai debutnya pada 27 maret 2022. Meski terbilang masih baru, namun kobo terbilang cukup sukses, karena mampu mencapai 1 juta subscriber dalam waktu 3 bulan.  Kobo Kanaeru berkarakter sebagai pawang hujan, yang dipercaya mampu mengendalikan cuaca untuk mencegah hujan.
@@ -31,3 +31,11 @@ Nama Kobo Kanaeru adalah plesetan dari kobokan, yang berasal dari bahasa Indones
 * Dia tahu HTML, CSS, dan JavaScript. Meskipun dia menggambarkan dirinya sebagai "masih belajar", presentasi video debutnya dibuat dalam bentuk halaman web dengan fitur yang sangat canggih termasuk animasi dan transisi CSS. Meskipun dia bilang dalam tahap belajar, namun dengan hasil yang ia tampilkan sepertinya kobo sudah lama mendalami bidang ini dalam kesehariannya.
 * Kobo tidak suka matematika. Meskipun dia suka dengan pemrograman, tapi kobo tidak suka matematika. Memang matematika hanyalah opsional dalam bahasa pemrograman, tergantung dengan framework yang dia pakai apakah menggunakan logika dan perhitungan.
 * Kobo bisa bermain gitar dan bernyanyi dengan indah. Itu adalah hal yang suka dari vtuber.
+
+Begitulah artikel singkat mengenai kobo. Saya sendiri sangat suka menonton clip-clip kobo di YouTube, karena terkadang bikin ketawa, kesel dan juga bikin nangis, intinya kobo berhasil dalam membawakannya. Ada juga satu kata yang saya ingat ketika kobo main Valorant, "Kadang hidup itu... Hidup gitu" kalimat sederhana tapi mungkin cukup bermakna bagi saya.
+
+Cukup sekian saja artikel yang berkaitan dengan vtuber/anime kali ini. Ini memang pertama kali saya membuat artikel berjenis ini, jujur saja memang susah membuat artikel seperti ini, harus banyak belajar. Terimakasih telah membaca, jangan lupa sehat-sehat ya 😉.
+
+Reference: [https://virtualyoutuber.fandom.com/id/wiki/Kobo_Kanaeru](https://virtualyoutuber.fandom.com/id/wiki/Kobo_Kanaeru "https://virtualyoutuber.fandom.com/id/wiki/Kobo_Kanaeru")
+
+Image: [https://hololive.hololivepro.com/en/talents/kobo-kanaeru/]()
